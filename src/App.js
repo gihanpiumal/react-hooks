@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import SetStates from "./hooks/SetStates";
+import UseReducers from "./hooks/UseReducers.js";
+import UseEffect from "./hooks/UseEffect";
+import UseRef from "./hooks/UseRef";
+import UseLayoutEffect from "./hooks/UseLayoutEffect";
+import ImperactiveHandle from "./hooks/imperativeHandle-Hook/ImperactiveHandle";
+import CreateContext from "./hooks/createContext/CreateContext";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CreateContext /> 
     </div>
   );
 }
